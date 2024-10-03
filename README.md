@@ -32,7 +32,7 @@ System.out.println(" su mo tu we th fr sa");
 This code sets up a GregorianCalendar object with the specified year and month. It then calculates the number of days in the month and the day of the week the month starts. Based on this, it prints the formatted calendar.
 
 
-##Example OutPut:
+**Example OutPut:**
 
 ```enter year: 2023
 enter month(1-12): 10
