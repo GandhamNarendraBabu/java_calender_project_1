@@ -1,8 +1,8 @@
-# My Calendar Project
+**My Calendar Project**
 
 This is a simple calendar application written in Java that displays the calendar for a specific month and year.
 
-## Features
+**Features**
 - Displays the calendar for any month of any year.
 - Shows the days of the week starting from Sunday.
 - Neatly formats the days in rows corresponding to weeks.
@@ -21,10 +21,13 @@ GregorianCalendar calendar = new GregorianCalendar(year, month-1, 1);
 int daysInMonth = calendar.getActualMaximum(calendar.DAY_OF_MONTH);
 int startDay = calendar.get(calendar.DAY_OF_WEEK);
 
-// Calendar header
+
+''' Java
+Calendar header
+
 System.out.println(" " + calendar.getDisplayName(calendar.MONTH, calendar.LONG, java.util.Locale.ENGLISH) + " " + year);
 System.out.println(" su mo tu we th fr sa");
-***
+'''
 
 This code sets up a GregorianCalendar object with the specified year and month. It then calculates the number of days in the month and the day of the week the month starts. Based on this, it prints the formatted calendar.
 
