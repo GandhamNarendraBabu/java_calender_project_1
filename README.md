@@ -25,8 +25,9 @@ int startDay = calendar.get(calendar.DAY_OF_WEEK);
 """
 
 // Calendar header
-**System.out.println(" " + calendar.getDisplayName(calendar.MONTH, calendar.LONG, java.util.Locale.ENGLISH) + " " + year);
-System.out.println(" su mo tu we th fr sa");**
+```java
+System.out.println(" " + calendar.getDisplayName(calendar.MONTH, calendar.LONG, java.util.Locale.ENGLISH) + " " + year);
+System.out.println(" su mo tu we th fr sa");
 
 This code sets up a GregorianCalendar object with the specified year and month. It then calculates the number of days in the month and the day of the week the month starts. Based on this, it prints the formatted calendar.
 
