@@ -34,13 +34,16 @@ This code sets up a GregorianCalendar object with the specified year and month. 
 
 **Example OutPut:**
 
-```enter year: 2023
-enter month(1-12): 10
- October 2023
- su mo tu we th fr sa
-  1  2  3  4  5  6  7 
-  8  9 10 11 12 13 14 
- 15 16 17 18 19 20 21 
- 22 23 24 25 26 27 28 
- 29 30 31
 ```
+ enter year:2024
+ enter month(1-12):10
+ October 2024
+ su mo tu we th fr sa
+       1  2  3  4  5 
+ 6  7  8  9 10 11 12 
+13 14 15 16 17 18 19 
+20 21 22 23 24 25 26 
+27 28 29 30 31
+```
+
+
