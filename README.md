@@ -19,9 +19,10 @@ This is a simple calendar application written in Java that displays the calendar
 Here’s a brief look at how the main part of the program works:
 
 '''java
-**GregorianCalendar calendar = new GregorianCalendar(year, month-1, 1);
+GregorianCalendar calendar = new GregorianCalendar(year, month-1, 1);
 int daysInMonth = calendar.getActualMaximum(calendar.DAY_OF_MONTH);
-int startDay = calendar.get(calendar.DAY_OF_WEEK);**
+int startDay = calendar.get(calendar.DAY_OF_WEEK);
+'''
 
 // Calendar header
 **System.out.println(" " + calendar.getDisplayName(calendar.MONTH, calendar.LONG, java.util.Locale.ENGLISH) + " " + year);
