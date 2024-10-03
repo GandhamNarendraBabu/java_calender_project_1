@@ -18,22 +18,21 @@ This is a simple calendar application written in Java that displays the calendar
 
 Here’s a brief look at how the main part of the program works:
 
-***java
-GregorianCalendar calendar = new GregorianCalendar(year, month-1, 1);
+'''java
+**GregorianCalendar calendar = new GregorianCalendar(year, month-1, 1);
 int daysInMonth = calendar.getActualMaximum(calendar.DAY_OF_MONTH);
-int startDay = calendar.get(calendar.DAY_OF_WEEK);
+int startDay = calendar.get(calendar.DAY_OF_WEEK);**
 
 // Calendar header
-System.out.println(" " + calendar.getDisplayName(calendar.MONTH, calendar.LONG, java.util.Locale.ENGLISH) + " " + year);
-System.out.println(" su mo tu we th fr sa");
-***
+**System.out.println(" " + calendar.getDisplayName(calendar.MONTH, calendar.LONG, java.util.Locale.ENGLISH) + " " + year);
+System.out.println(" su mo tu we th fr sa");**
 
 This code sets up a GregorianCalendar object with the specified year and month. It then calculates the number of days in the month and the day of the week the month starts. Based on this, it prints the formatted calendar.
 
 
-***Example OutPut:
+##Example OutPut:
 
-enter year: 2023
+**enter year: 2023
 enter month(1-12): 10
  October 2023
  su mo tu we th fr sa
@@ -41,4 +40,4 @@ enter month(1-12): 10
   8  9 10 11 12 13 14 
  15 16 17 18 19 20 21 
  22 23 24 25 26 27 28 
- 29 30 31***
+ 29 30 31**
